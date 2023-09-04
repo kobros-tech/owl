@@ -59,7 +59,7 @@ mount(Root, document.body);
 ```
 
 Note that the counter component is made reactive with the [`useState` hook](doc/reference/hooks.md#usestate).
-Also, all examples here uses the [`xml` helper](doc/reference/templates.md#inline-templates) to define inline templates.
+Also, all examples here use the [`xml` helper](doc/reference/templates.md#inline-templates) to define inline templates.
 But this is not mandatory, many applications will load templates separately.
 
 More interesting examples can be found on the
@@ -133,10 +133,10 @@ Unzip the owl-devtools.zip file and follow the instructions depending on your br
 
 ### Chrome
 
-Go to your chrome extensions admin panel, activate developer mode and click on `Load unpacked`.
+Go to your chrome extensions admin panel, activate developer mode, and click on `Load unpacked`.
 Select the devtools-chrome folder and that's it, your extension is active! 
 There is a convenient refresh button on the extension card (still on the same admin page) to update your code. 
-Do note that if you got some problems, you may need to completly remove and reload the extension to completly refresh the extension.
+Do note that if you have some problems, you may need to completely remove and reload the extension to completely refresh the extension.
 
 ### Firefox 
 Go to the address about:debugging#/runtime/this-firefox and click on `Load temporary Add-on...`.
@@ -144,6 +144,6 @@ Select any file in the devtools-firefox folder and that's it, your extension is 
 Here, you can use the reload button to refresh the extension.
 
 Note that you may have to open another window or reload your tab to see the extension working.
-Also note that the extension will only be active on pages that have a sufficient version of owl.
+Also, note that the extension will only be active on pages that have a sufficient version of owl.
 
 
